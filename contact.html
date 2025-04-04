@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, This is an Ecommerce Project for making Rabab express">
+    <title>E-commerce Website using html css</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://kit.fontawesome.com/061a65ab8b.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <!-- upper nav -->
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="/index.html" class="nav-link">LogOut</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img class="profile-icon" src="images/profile0.png" alt="Profile icon not showing">
+                </a>
+            </li>
+        </ul>
+        <!-- lower nav -->
+         <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="/index.html" class="nav-link nav-brand">Rabab Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="/cart.html" class="nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i> Cart 2 products - $124.40</span>
+                    
+                </a>
+            </li>
+         </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!--Contact page starts -->
+    <main>
+        <section class="contact-section">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <div class="contact-container flex-center">
+                <form action="" class="form card">
+                    <div class="form-control flex-center">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required autocomplete="name">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" email="email" placeholder="Enter your email" required autocomplete="email">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Type your message here"></textarea>
+                    </div>
+                    <div class="form-control flex-center form-btn-field">
+                        <button type="submit" class="btn contact-btn">Submit</button>
+                    </div>  
+                </form>
+                <div class="contact-address flex-space-around">
+                    <address>
+                        <h4>Address: </h4>
+                        <p>Chakdah, Melandah, Jamalpur</p>
+                        <p>Dhaka , Bangladesh</p>
+                        <br>
+                        <span>Call:</span>
+                        <a href="tel:+880148596739">+880148596739</a>
+                    </address>
+                    <iframe class="contact-map card cart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d648.6678527669233!2d89.83039536703944!3d24.98212448989992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fd7738a58030ad%3A0xed4699ea01793462!2zRGFhayBCYW5nbG8g4Kah4Ka-4KaV4Kas4Ka-4KaC4Kay4KeL!5e1!3m2!1sen!2sbd!4v1743761558796!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+     </main>
+    <!--Contact page ends -->
+     
+
+    <!-- footer starts here-->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to news letter: </label>
+            <input type="email" id="Subscribe" name="subscribe" class="footer-input" placeholder="your email address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright @2025 Rabab Express. All right reserved</p>
+        </div>
+     </footer>
+    <!-- footer ends here-->
+
+     <!-- js script -->
+     <script src="script/index.js"></script>
+
+</body>
+</html>

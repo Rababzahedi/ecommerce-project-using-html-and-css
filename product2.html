@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, This is an Ecommerce Project for making Rabab express">
+    <title>E-commerce Website using html css</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://kit.fontawesome.com/061a65ab8b.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <!-- upper nav -->
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="/index.html" class="nav-link">LogOut</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img class="profile-icon" src="images/profile0.png" alt="Profile icon not showing">
+                </a>
+            </li>
+        </ul>
+        <!-- lower nav -->
+         <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="/index.html" class="nav-link nav-brand">Rabab Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="/cart.html" class="nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i> Cart 2 products - $124.40</span>
+                    
+                </a>
+            </li>
+         </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- main Product page starts -->
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product-details-left flex-center">
+                    <img src="images/product2.png" alt="product 1">
+                </div>
+                <div class="product-details-right">
+                    <h3 class="product-name">Apple Smart Watch</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product-description">
+                        <strong>Description: </strong>
+                        The Apple Smart Watch is a premium wearable device designed to enhance connectivity, fitness, and overall wellness. It seamlessly integrates with iPhones, allowing users to receive notifications, make calls, and use apps directly from their wrist. The watch comes in various models, including the Series, Ultra, and SE, each offering unique features for different lifestyles. With advanced health monitoring like heart rate tracking, ECG, SpO2 measurement, and sleep tracking, it helps users stay informed about their well-being. Its always-on Retina display ensures clear visibility, while the sleek and durable design makes it stylish yet functional. GPS, water resistance, and cellular connectivity provide convenience for outdoor activities and travel. The Apple Watch also includes fitness tracking, workout coaching, and smart assistant features for daily productivity. A long-lasting battery and fast charging ensure it stays powered throughout the day. Overall, it is a perfect blend of technology, health, and style for modern users. 
+                    </p>
+                    <h4 class="product-category">Category:Smart Watch</h4>
+                    <h4 class="product-price">Price: $425.40</h4>
+                    <p class="product-rating">Rating: 4.8/5</p>
+                    <button class="btn product-button">Add to Cart</button>
+                    <button class="btn product-button">
+                        <a href="index.html" class="shop-back-link">Back to Shopping</a>
+                    </button>
+                </div>
+            </section>
+        </div>
+     </main>
+    <!-- main Product page ends -->
+
+
+    <!-- footer starts here-->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to news letter: </label>
+            <input type="email" id="Subscribe" name="subscribe" class="footer-input" placeholder="your email address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright @2025 Rabab Express. All right reserved</p>
+        </div>
+     </footer>
+    <!-- footer ends here-->
+
+
+    <!-- js script -->
+    <script src="script/index.js"></script>
+
+</body>
+</html>

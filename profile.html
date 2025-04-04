@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, This is an Ecommerce Project for making Rabab express">
+    <title>E-commerce Website using html css</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://kit.fontawesome.com/061a65ab8b.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <!-- upper nav -->
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="/index.html" class="nav-link">LogOut</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img class="profile-icon" src="images/profile0.png" alt="Profile icon not showing">
+                </a>
+            </li>
+        </ul>
+        <!-- lower nav -->
+         <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="/index.html" class="nav-link nav-brand">Rabab Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="/cart.html" class="nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i> Cart 2 products - $124.40</span>
+                    
+                </a>
+            </li>
+         </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- main profile page starts -->
+    <main>
+        <section class="profile flex-center">
+            <h2 class="section-title text-center">User Profile</h2>
+            <div class="card flex-center">
+                <img src="images/profile0.png" alt="profile" class="profile-img">
+                <h2 class="profile-name">Md. Rabab Zahedi</h2>
+                <p class="profile-email">rababzahedi7@gmail.com</p>
+                <p class="profile-phone">+880 1234567890</p>
+                <p class="profile-about">I love to buy different gadgets</p>
+                <div class="profile-buttons">
+                    <button class="btn profile-edit-btn">
+                        <i class="far fa-edit fa-2x"></i>
+                    </button>
+                    <button class="btn profile-delete-btn">
+                        <i class="far fa-trash-alt fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+     </main>
+    <!-- main profile page ends -->
+
+    <!-- footer starts here-->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to news letter: </label>
+            <input type="email" id="Subscribe" name="subscribe" class="footer-input" placeholder="your email address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright @2025 Rabab Express. All right reserved</p>
+        </div>
+     </footer>
+    <!-- footer ends here-->
+
+
+    <!-- js script -->
+    <script src="script/index.js"></script>
+
+</body>
+</html>
